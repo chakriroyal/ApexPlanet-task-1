@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ff9900;
+    color: #fff;
+  }
+  
+  .navbar {
+    background-color: #ff9900;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .navbar nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .banner {
+    margin: 15px;
+    background-image: url('/images/hero2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 600;
+    height: 350;
+    padding: 80px 30px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .banner h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .banner button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #ff9900;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  h2{
+    margin: 30px;
+    font-weight: 24px;
+  }
+  p{
+    margin: 30px;
+    font-weight: lighter;
+  }
+  .anime-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 30px;
+  }
+  
+  .anime-card {
+    background-color: #ff9900;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 0 15px #fff;
+  }
+  
+  .anime-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .anime-card h3 {
+    padding: 10px;
+    margin: 0;
+  }
+  
